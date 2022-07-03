@@ -1,0 +1,66 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 450px;
+    height: 600px;
+    background-color: white;
+}
+
+.header-post{
+    
+    display: flex; 
+    border-color: blue;
+    border-width: 5px;
+}
+
+.fa-html5{
+   margin: 15px 10px 15px 15px;
+
+}
+
+.fa-ellipsis-vertical{
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.perrogeek {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    margin: 10px;
+    
+}
+
+.fa-heart,
+.fa-comment {
+    
+    margin-right: 7px;
+
+}
+
+.fa-bookmark{
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.likes, .caption{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
